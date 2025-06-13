@@ -54,7 +54,7 @@ Pull requests are welcome! Feel free to fork the repo and suggest:
 - New features (e.g., HTTP headers, traceroute, port scan)
 - UI improvements or interactive menus
 - Bug fixes or performance enhancements
-- 
+  
 
 ### ⚠️ Disclaimer
 
