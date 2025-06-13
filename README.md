@@ -1,4 +1,4 @@
-# 🔍 Reconix - Python CLI Recon Tool
+### 🔍 Reconix - Python CLI Recon Tool
 
 **Reconix** is a beginner-friendly, modular, and lightweight **Python-based reconnaissance tool** used to gather essential information about a website or domain. It runs WHOIS, DNS Lookup, Ping test, and optional Subfinder enumeration — all from your terminal.
 
@@ -6,7 +6,7 @@
 
 ---
 
-## 📌 Features
+### 📌 Features
 
 - ✅ WHOIS domain information
 - ✅ DNS Lookup using nslookup
@@ -25,7 +25,30 @@ Make sure these tools are installed on your Kali or Linux machine:
 sudo apt update
 sudo apt install whois dnsutils iputils-ping -y
 ```
-#### ✨ Contributing
+
+---
+
+### 📦 How to use This Project
+
+To use this tool on your Kali Linux or any Linux-based system, follow these steps:
+
+1. **Open your terminal**
+
+2. **Clone the GitHub repository**
+
+```bash
+git clone https://github.com/dipranjanda/Reconix-Python.git
+
+cd Reconix-Python
+
+python3 reconix.py
+
+chmod +x reconix.py
+./reconix.py
+```
+
+
+### ✨ Contributing
 
 Pull requests are welcome! Feel free to fork the repo and suggest:
 - New features (e.g., HTTP headers, traceroute, port scan)
@@ -33,7 +56,7 @@ Pull requests are welcome! Feel free to fork the repo and suggest:
 - Bug fixes or performance enhancements
 - 
 
-##### ⚠️ Disclaimer
+### ⚠️ Disclaimer
 
 This tool is made for **educational and ethical testing purposes only.**  
 Do not use against domains you do not own or have permission to test.
